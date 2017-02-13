@@ -1,5 +1,7 @@
 # scrobbler
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nkbt/scrobbler.svg)](https://greenkeeper.io/)
+
 Manual bulk scrobbler from text or json file to LastFM.
 
 

@@ -1,6 +1,6 @@
 {
   "name": "scrobbler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Manual bulk scrobbler from text or json file to LastFM.",
   "main": "index.js",
   "bin": {

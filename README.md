@@ -13,6 +13,10 @@ npm install -g scrobbler
 
 # Run
 
+You will need to have LastFM developer account
+Check http://www.last.fm/api on how to obtain API key and Secret.
+
+
 Create `secret.json` and fill all the values:
 ```json
 {
@@ -127,3 +131,8 @@ scrobbler-addtime 2:13 3:51
 scrobbler-addtime 24:35 128:56
 153:31
 ```
+
+
+# PS
+
+Check out [itunes-scrobbler](https://www.npmjs.com/package/itunes-scrobbler) tool if you want to automatically bulk scrobble play counts and loved tracks from your iTunes library 

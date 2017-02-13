@@ -1,0 +1,41 @@
+{
+  "name": "scrobbler",
+  "version": "0.0.0",
+  "description": "Manual bulk scrobbler from text or json file to LastFM.",
+  "main": "index.js",
+  "bin": {
+    "scrobbler": "./bin/submit.js",
+    "scrobbler-addtime": "./bin/add.js",
+    "scrobbler-convert": "./bin/convert.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nkbt/scrobbler.git"
+  },
+  "keywords": [
+    "scrobbler",
+    "scrobble",
+    "manual scrobble",
+    "bulk scrobble",
+    "lastfm",
+    "last.fm"
+  ],
+  "author": "Nik Butenko <nik@butenko.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkbt/scrobbler/issues"
+  },
+  "homepage": "https://github.com/nkbt/scrobbler",
+  "dependencies": {
+    "itunes-scrobbler": "1.0.1"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "index.js",
+    "README.md"
+  ]
+}

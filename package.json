@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/nkbt/scrobbler",
   "dependencies": {
-    "itunes-scrobbler": "1.0.1"
+    "itunes-scrobbler": "1.0.3"
   },
   "files": [
     "bin",
